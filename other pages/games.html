@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InASchool</title>
+    <link rel="stylesheet" href="../css/games.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#News" onclick="toggleNews()">News</a></li>
+            <li><a href="#Updates" onclick="toggleUpdates()">Updates</a></li>
+            <li><a href="games.html" id="games" class="active">Games</a></li>
+            
+         </ul>
+    </header>
+    
+
+    <div class="new" id="new-1">
+        <div class="darkback"></div>
+        <div class="news">
+            <div class="close-btn" onclick="toggleNews()">&times;</div>
+            <h1>News Page</h1>
+            <p>
+                Added 3 Games to the gaming site. We are also happy to announce that from now on, there are going to be weekly games that are going to be added to the gaming site! We hope you enjoy your time! 😀 
+            </p>
+        </div>
+    </div>
+
+
+    <div class="update" id="update-1">
+        <div class="dback"></div>
+        <div class="updates">
+            <div class="close-btn" onclick="toggleUpdates()">&times;</div>
+            <h1>Updates Page</h1>
+            <p>
+                Added Geometry Dash Lite, Narrow One, and Slither. Enjoy! 😀
+            </p>
+        </div>
+    </div>
+    
+    <button class="geometrydash"><a href="geometrydash.html"><img src="../images/OIP.jpeg" alt="" ></a></button>
+    <button class="narrow"><a href="d.html"><img src="../images/OIfsdfP (1).jpeg" alt=""></a></button>
+    <button class="s"><a href="s.html"><img src="../images/download.jpeg" alt=""></a></button>
+    <script src="../js/games.js"></script>
+</body>
+</html>
