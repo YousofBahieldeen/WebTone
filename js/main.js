@@ -19,8 +19,6 @@ document.getElementById("submit-1").onclick = function(){
     const password = document.getElementById("password-1").value;
 
     if (usename == "Yousof" && password == "1234"){
-        document.getElementById("username-1").style.borderColor = "lightgreen";
-        document.getElementById("password-1").style.borderColor = "lightgreen";
         togglePopup();
         signed = true;
         dowhilesined();
@@ -31,8 +29,7 @@ document.getElementById("submit-1").onclick = function(){
     }
 
     if (username == "admin" && password == "12") {
-        document.getElementById("username-1").style.borderColor = "lightgreen";
-        document.getElementById("password-1").style.borderColor = "lightgreen";
+        togglePopup();
         signed = true;
         dowhileadmin();
     }else {
