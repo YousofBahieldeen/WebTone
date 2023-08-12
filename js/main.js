@@ -18,7 +18,7 @@ document.getElementById("submit-1").onclick = function(){
     const usename = document.getElementById("username-1").value;
     const password = document.getElementById("password-1").value;
 
-    if (usename == "Yousof" && password == "1234"){
+    if (usename == "Yousof" && password == "1234" || username == "admin" && password == "12"){
         togglePopup();
         signed = true;
         dowhilesined();
